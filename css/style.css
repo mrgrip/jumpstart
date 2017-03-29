@@ -67,7 +67,8 @@ nav ul li a {
 
 .jumbotron p {
 	width: 51.3rem;
-	margin-bottom: 2.8rem;
+	/*margin-bottom: 2.8rem;*/
+	margin: 0 auto 2.8rem;
 }
 
 .jumbotron .btn {
@@ -104,14 +105,15 @@ nav ul li a {
 	margin-left: 1rem;
 }
 
-.image-container {
-	width: 50%;
-	height: 24rem;
+ .featured .image-container {
+	/*width: 50%;*/
+	/*height: 24rem;*/
 }
 
 .image-container img {
-	max-height: 100%;
-	width: auto;
+	/*max-height: 100%;
+	width: auto;*/
+	width: 100%;
 	display: block;
 }
 
@@ -148,9 +150,9 @@ nav ul li a {
 	margin-left: 1rem;
 }
 
-.projects .image-container {
-	height: 17rem;
-	width: 50%;
+.image-container {
+	/*height: 17rem;
+	width: 50%;*/
 }
 
 /* Footer */
@@ -169,7 +171,8 @@ footer h1 {
 
 footer p {
 	width: 42rem;
-	margin-bottom: 3rem;
+	/*margin-bottom: 3rem;*/
+	margin: 0 auto 3rem;
 }
 
 footer .btn {
@@ -184,5 +187,9 @@ footer .btn {
 @media only screen and (max-width: 770px) {
 	footer p {
 		width: 95%;
+	}
+
+	.project-text {
+		margin-bottom: 8rem;
 	}
 }
